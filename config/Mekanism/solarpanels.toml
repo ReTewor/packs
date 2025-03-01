@@ -1,0 +1,22 @@
+
+#MoreSolarPanels Config. This config is synced between server and client.
+[solarpanels]
+	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	advancedSolarPanel = "80000"
+	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	hybridSolarPanel = "320000"
+	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	ultimateHybridSolarPanel = "1280000"
+	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	quantumSolarPanel = "5120000"
+	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	spectralSolarPanel = "20480000"
+	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	singularSolarPanel = "81920000"
+	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	lightAbsorbingSolarPanel = "327680000"
+	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	photonicSolarPanel = "1310720000"
+	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	creativeSolarPanel = "13107200000"
+

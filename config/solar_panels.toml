@@ -1,0 +1,15 @@
+tier1GenerationRate = 2
+tier1TransferRate = 512
+tier1Capacity = 8192
+tier2GenerationRate = 4
+tier2TransferRate = 512
+tier2Capacity = 8192
+tier3GenerationRate = 8
+tier3TransferRate = 512
+tier3Capacity = 8192
+tier4GenerationRate = 32
+tier4TransferRate = 1024
+tier4Capacity = 16384
+tier5GenerationRate = 96
+tier5TransferRate = 1024
+tier5Capacity = 16384

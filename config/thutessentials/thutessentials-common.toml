@@ -1,0 +1,108 @@
+
+[bed]
+	bedReUseDelay = 100
+	bedActivateDelay = 50
+
+[mobs]
+	mobSpawnBlacklist = []
+	mobSpawnWhitelist = []
+	mobSpawnUsesWhitelist = false
+	mobGriefAllowUsesWhitelist = true
+	mobGriefAllowWhitelist = ["minecraft:villager"]
+	mobGriefAllowBlacklist = []
+
+[tpa]
+	tpaActivateDelay = 50
+	tpaCrossDim = true
+	tpaReUseDelay = 100
+
+[back]
+	backActivateDelay = 50
+	back_on_death = true
+	backReUseDelay = 100
+	back_on_tp = true
+	backRangeCheck = 5
+
+[staff]
+	staff = []
+
+[economy]
+	initialBalance = 1000
+	shopsEnabled = true
+	sellTags = ["Sell", "Sells", "Sale"]
+	recycleTags = ["Recycle"]
+
+[rtp]
+	rtpDistance = 5000
+	rtpActivateDelay = 50
+	rtpCentre = "0,0"
+	rtpPlayerCentred = false
+	rtpReUseDelay = 100
+	rtpSpawnCentred = true
+
+[warps]
+	warpActivateDelay = 50
+	warps = ["castle->129,68,1015,minecraft:the_nether"]
+	warpReUseDelay = 100
+
+[chat]
+	chatFormat = "<%s> %s"
+	useChatFormat = true
+
+[homes]
+	kitReuseDelay = -1
+	homeReUseDelay = 100
+	homeActivateDelay = 50
+	maxHomes = 4
+
+[land]
+	defaultMessages = true
+	blockUseWhitelist = []
+	landEnabled = true
+	maxChunkloads = 9
+	logTeamChat = true
+	defaultTeamName = "Plebs"
+	itemUseWhitelist = []
+	blockBreakWhitelist = []
+	wildernessTeam = false
+	legacyDimMap = ["0->overworld", "-1->the_nether", "1->the_end"]
+	mobUseWhitelist = []
+	noMobGriefing = true
+	prefixLength = 12
+	vanillaTeamUse = true
+	teamLandPerPlayer = 125
+	chunkLoading = true
+	blockPlaceWhitelist = []
+	wildernessTeamName = "Wilderness"
+	customMobUsePerms = ["minecraft:armor_stand->thutessentials.land.useblock.unowned,thutessentials.land.useblock.owned.self,thutessentials.land.useblock.owned.other", "minecraft:item_frame->thutessentials.land.useblock.unowned,thutessentials.land.useblock.owned.self,thutessentials.land.useblock.owned.other", "minecraft:chest_minecart->thutessentials.land.useblock.unowned,thutessentials.land.useblock.owned.self,thutessentials.land.useblock.owned.other", "minecraft:furnace_minecart->thutessentials.land.useblock.unowned,thutessentials.land.useblock.owned.self,thutessentials.land.useblock.owned.other"]
+	foodWhitelisted = true
+	denyExplosions = true
+
+[logging]
+	inventory_log_blacklist = []
+	log_teleports = true
+	log_interactions = true
+	log_inventory_use = true
+
+[misc]
+	lang_file = "en_us.json"
+	pvpPerms = false
+	versioned_dim_warning = true
+	debug = false
+	versioned_dims = []
+	versioned_dim_seeds = []
+	rules = []
+	defuzzKey = ""
+	maxSpeed = 10.0
+	spawnActivateDelay = 50
+	dim_verison = 0
+	scheduledCommands = []
+	spawnWorld = "minecraft:overworld"
+	invulnMobs = []
+	comandDisableSpam = true
+	defuzz = true
+	firstSpawn = ""
+	postTeleInvulDur = 20
+	commandBlacklist = []
+	spawnReUseDelay = 100
+

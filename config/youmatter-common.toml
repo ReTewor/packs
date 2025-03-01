@@ -1,0 +1,19 @@
+#Use the filterItems list as blacklist (true) or as whitelist (false). Whitelist means, that you can only duplicate those items in that list. Blacklist is vice-versa.
+filterMode = true
+#List of items that are being treated specially. See filterMode for further details. Format: "modid:item"
+filterItems = ["youmatter:umatter_bucket", "youmatter:stabilizer_bucket"]
+#Overrides: Set your desired required U-Matter values for each item. These do not apply when you e.g. have whitelist on but it doesn't include the desired override. Format: "modid:item=amount"
+overrides = ["minecraft:nether_star=360", "minecraft:wither_skeleton_skull=120", "minecraft:ghast_tear=500", "minecraft:coal_block=7", "minecraft:diamond=10", "mekanism:ingot_steel=2", "minecraft:raw_iron=2", "mekanism:raw_osmium=2", "minecraft:raw_gold=2", "mekanism:raw_uranium=2", "minecraft:ender_pearl=10", "mekanism:block_steel=10", "mekanism:block_raw_osmium=7", "minecraft:raw_gold_block=56", "mekanism:block_raw_uranium=95", "minecraft:diamond_block=85", "minecraft:raw_iron_block=7", "minecraft:redstone_block=7", "minecraft:quartz_block=7", "ae2:quartz_block=14", "minecraft:netherite_block=250", "mekanism:block_fluorite=7", "minecraft:hay_block=25", "mekanism:block_raw_lead=7", "projecte:dark_matter=120", "minecraft:iron_ingot=1", "minecraft:copper_ingot=1", "mekanism:ingot_osmium=1", "mekanism:ingot_tin=1", "minecraft:gold_ingot=5", "minecraft:netherite_ingot=30", "mekanism:ingot_lead=1", "thermal:nickel_ingot=8", "thermal:bronze_ingot=5", "techreborn:platinum_ingot=30", "minecraft:coal=1"]
+#The default amount that is required to duplicate an item if it is not overridden.
+defaultAmount = 1000
+#The energy consumption of the replicator per tick. Default: 2048
+energyReplicator = 2048
+#The energy consumption of the encoder per tick. Default: 512
+energyEncoder = 512
+#The energy consumption of the scanner per tick. Default: 512
+energyScanner = 512
+#Determines how much U-Matter [in mB] the creator produces every work cycle. Energy is withdrawn like this: if energy more than 30% of max energy, consume 30% and add [whatever value below] of U-Matter to the tank. Default is 1mB/work cycle. Don't increase this too much due to balancing issues.
+productionPerTick = 1
+#Allows you to specify an alternative to YouMatter's stabilizer fluid. Leave empty if you only want to accept the default fluid.
+alternativeStabilizer = "fluid:minecraft:water"
+

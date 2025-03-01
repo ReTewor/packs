@@ -1,0 +1,271 @@
+~ Saved With Hammer Lib 16.5.50
++C:Solar Flux: Custom={
+  +C:custom_eight={
+    # How much FE does this solar panel store? (Default: 1000000000, Range: [1;9223372036854775807])
+    +L:Capacity=81920000
+
+    # How much FE does this solar panel produce per tick? (Default: 221184, Range: [1;9223372036854775807])
+    +L:Generation Rate=262144
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 309657, Range: [1;9223372036854775807])
+    +L:Transfer Rate=524288
+
+  }
+
+  +C:custom_eleven={
+    # How much FE does this solar panel store? (Default: 50000000000, Range: [1;9223372036854775807])
+    +L:Capacity=50000000000
+
+    # How much FE does this solar panel produce per tick? (Default: 1327104, Range: [1;9223372036854775807])
+    +L:Generation Rate=1327104
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 1990656, Range: [1;9223372036854775807])
+    +L:Transfer Rate=1990656
+
+  }
+
+  +C:custom_finalpanel={
+    # How much FE does this solar panel store? (Default: 512000000000, Range: [1;9223372036854775807])
+    +L:Capacity=512000000000
+
+    # How much FE does this solar panel produce per tick? (Default: 1451188224, Range: [1;9223372036854775807])
+    +L:Generation Rate=16777216
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 2176782336, Range: [1;9223372036854775807])
+    +L:Transfer Rate=50331648
+
+  }
+
+  +C:custom_five={
+    # How much FE does this solar panel store? (Default: 50000000, Range: [1;9223372036854775807])
+    +L:Capacity=10240000
+
+    # How much FE does this solar panel produce per tick? (Default: 32768, Range: [1;9223372036854775807])
+    +L:Generation Rate=4096
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 65536, Range: [1;9223372036854775807])
+    +L:Transfer Rate=8192
+
+  }
+
+  +C:custom_fiveteen={
+    # How much FE does this solar panel store? (Default: 5000000000000, Range: [1;9223372036854775807])
+    +L:Capacity=5000000000000
+
+    # How much FE does this solar panel produce per tick? (Default: 60466176, Range: [1;9223372036854775807])
+    +L:Generation Rate=60466176
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 90699264, Range: [1;9223372036854775807])
+    +L:Transfer Rate=90699264
+
+  }
+
+  +C:custom_four={
+    # How much FE does this solar panel store? (Default: 10000000, Range: [1;9223372036854775807])
+    +L:Capacity=5120000
+
+    # How much FE does this solar panel produce per tick? (Default: 8192, Range: [1;9223372036854775807])
+    +L:Generation Rate=1024
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 16384, Range: [1;9223372036854775807])
+    +L:Transfer Rate=1024
+
+  }
+
+  +C:custom_fourteen={
+    # How much FE does this solar panel store? (Default: 5000000000000, Range: [1;9223372036854775807])
+    +L:Capacity=5000000000000
+
+    # How much FE does this solar panel produce per tick? (Default: 26873856, Range: [1;9223372036854775807])
+    +L:Generation Rate=26873856
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 40310784, Range: [1;9223372036854775807])
+    +L:Transfer Rate=40310784
+
+  }
+
+  +C:custom_nine={
+    # How much FE does this solar panel store? (Default: 5000000000, Range: [1;9223372036854775807])
+    +L:Capacity=163840000
+
+    # How much FE does this solar panel produce per tick? (Default: 331776, Range: [1;9223372036854775807])
+    +L:Generation Rate=1048576
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 442368, Range: [1;9223372036854775807])
+    +L:Transfer Rate=2097152
+
+  }
+
+  +C:custom_one={
+    # How much FE does this solar panel store? (Default: 64000, Range: [1;9223372036854775807])
+    +L:Capacity=64000
+
+    # How much FE does this solar panel produce per tick? (Default: 8, Range: [1;9223372036854775807])
+    +L:Generation Rate=4
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 64, Range: [1;9223372036854775807])
+    +L:Transfer Rate=16
+
+  }
+
+  +C:custom_resone={
+    # How much FE does this solar panel store? (Default: 5000000000000, Range: [1;9223372036854775807])
+    +L:Capacity=5000000000000
+
+    # How much FE does this solar panel produce per tick? (Default: 362797056, Range: [1;9223372036854775807])
+    +L:Generation Rate=362797056
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 1088391168, Range: [1;9223372036854775807])
+    +L:Transfer Rate=1088391168
+
+  }
+
+  +C:custom_seven={
+    # How much FE does this solar panel store? (Default: 500000000, Range: [1;9223372036854775807])
+    +L:Capacity=40960000
+
+    # How much FE does this solar panel produce per tick? (Default: 147456, Range: [1;9223372036854775807])
+    +L:Generation Rate=65536
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 196608, Range: [1;9223372036854775807])
+    +L:Transfer Rate=131072
+
+  }
+
+  +C:custom_six={
+    # How much FE does this solar panel store? (Default: 100000000, Range: [1;9223372036854775807])
+    +L:Capacity=20480000
+
+    # How much FE does this solar panel produce per tick? (Default: 98304, Range: [1;9223372036854775807])
+    +L:Generation Rate=16384
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 131072, Range: [1;9223372036854775807])
+    +L:Transfer Rate=32768
+
+  }
+
+  +C:custom_solarflux_resone={
+    +L:Capacity=256000000000
+
+    +L:Generation Rate=8388608
+
+    +F:Height=16.0
+
+    +L:Transfer Rate=16777216
+
+  }
+
+  +C:custom_ten={
+    # How much FE does this solar panel store? (Default: 10000000000, Range: [1;9223372036854775807])
+    +L:Capacity=10000000000
+
+    # How much FE does this solar panel produce per tick? (Default: 663552, Range: [1;9223372036854775807])
+    +L:Generation Rate=663552
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 995328, Range: [1;9223372036854775807])
+    +L:Transfer Rate=995328
+
+  }
+
+  +C:custom_thirteen={
+    # How much FE does this solar panel store? (Default: 5000000000000, Range: [1;9223372036854775807])
+    +L:Capacity=5000000000000
+
+    # How much FE does this solar panel produce per tick? (Default: 8957952, Range: [1;9223372036854775807])
+    +L:Generation Rate=8957952
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 13426928, Range: [1;9223372036854775807])
+    +L:Transfer Rate=13426928
+
+  }
+
+  +C:custom_three={
+    # How much FE does this solar panel store? (Default: 1000000, Range: [1;9223372036854775807])
+    +L:Capacity=2560000
+
+    # How much FE does this solar panel produce per tick? (Default: 1024, Range: [1;9223372036854775807])
+    +L:Generation Rate=128
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 4096, Range: [1;9223372036854775807])
+    +L:Transfer Rate=256
+
+  }
+
+  +C:custom_twelve={
+    # How much FE does this solar panel store? (Default: 100000000000, Range: [1;9223372036854775807])
+    +L:Capacity=100000000000
+
+    # How much FE does this solar panel produce per tick? (Default: 2985984, Range: [1;9223372036854775807])
+    +L:Generation Rate=2985984
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 5971968, Range: [1;9223372036854775807])
+    +L:Transfer Rate=5971968
+
+  }
+
+  +C:custom_two={
+    # How much FE does this solar panel store? (Default: 100000, Range: [1;9223372036854775807])
+    +L:Capacity=1280000
+
+    # How much FE does this solar panel produce per tick? (Default: 64, Range: [1;9223372036854775807])
+    +L:Generation Rate=32
+
+    # How high is this solar panel? (Default: 16.0, Range: [0.0;16.0])
+    +F:Height=16.0
+
+    # How much FE does this solar panel emit to other blocks, per tick? (Default: 128, Range: [1;9223372036854775807])
+    +L:Transfer Rate=64
+
+  }
+
+}
+
+
